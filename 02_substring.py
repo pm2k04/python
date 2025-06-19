@@ -4,7 +4,7 @@ def count_substring(main_string, sub_string):
 if __name__ == "__main__":
     main_string = input("Enter the main string: ")
     sub_string = input("Enter the substring to count: ")
-    
-print(f"the substring{sub_string}occurs{ main_string}time(s)in mainstring")   
+   result=count_substring(main_string,sub_string)  
+   print(f"the substring{sub_string}occurs{result}time(s)in mainstring")   
 
 
